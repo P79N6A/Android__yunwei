@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android__yunwei.iml" filepath="$PROJECT_DIR$/Android__yunwei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NaviTts/NaviTts.iml" filepath="$PROJECT_DIR$/NaviTts/NaviTts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwinklingRefreshLayout_library/TwinklingRefreshLayout_library.iml" filepath="$PROJECT_DIR$/TwinklingRefreshLayout_library/TwinklingRefreshLayout_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallerypick/gallerypick.iml" filepath="$PROJECT_DIR$/gallerypick/gallerypick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onsdk_all/onsdk_all.iml" filepath="$PROJECT_DIR$/onsdk_all/onsdk_all.iml" />
+    </modules>
+  </component>
+</project>

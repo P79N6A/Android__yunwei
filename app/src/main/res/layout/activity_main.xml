@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dedfe0" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/main_tab_rb_1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="今日工单"
+                android:textColor="@color/main_rb_color_selector"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/main_tab_rb_2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="历史工单"
+                android:textColor="@color/main_rb_color_selector"
+                android:textSize="10sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/main_tab_rb_3"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="业绩"
+                android:textColor="@color/main_rb_color_selector"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/rb_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/main_tab_rb_4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="通讯录"
+                android:textColor="@color/main_rb_color_selector"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/rb_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/main_tab_rb_5"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="我的"
+                android:textColor="@color/main_rb_color_selector"
+                android:textSize="10sp" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom_layout">
+    </FrameLayout>
+
+
+</RelativeLayout>

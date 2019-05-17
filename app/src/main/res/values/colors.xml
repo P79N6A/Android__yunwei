@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_black">#282828</color>
+    <color name="transparent">#00000000</color>
+    <color name="page_bg">#f9f9f9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="main_text_pressed_color">#e15656</color>
+    <color name="main_rb_text_gray">#7d7d7d</color>
+    <color name="theme_color">#02534a</color>
+    <color name="text_nodata">#a6a6a6</color>
+    <color name="text_color_black">#0c0c0c</color>
+    <color name="gray_line">#cccccc</color>
+
+    <color name="darkgrey">#C0C0C0</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#4287FF</color>
+    <color name="gray">#F1F1F1</color>
+    <color name="darkyellow">#FFCC33</color>
+    <color name="qianblue">#8052b6ee</color>
+    <color name="gray_black">#B6B4B4</color>
+    <color name="soft_black">#cc000000</color>
+    <color name="soblue">#52b6ee</color>
+    <color name="pressed_color">#E7E7E7</color>
+    <color name="customizebg">#09C7F7</color>
+    <color name="darkGray">#A2A2A2</color>
+    <color name="black">#000000</color>
+    <color name="grey">#ebebeb</color>
+
+</resources>
